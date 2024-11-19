@@ -13,10 +13,12 @@
     --color-4: #6D4A93;
 }
 
+/*sets the width of the html page to 100% of screen size*/
 html {
-    width: 100%;
+    width: 100vw;
 }
 
+/*formats the body for general features and content layout*/
 body {
     font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
@@ -39,12 +41,15 @@ body {
     background-color: #8860d0;
     color: #ffffff;
     width: 100%;
+    height: auto;
     z-index: 100;
 }
 
+
+/*logo and navigation bar*/
 .logo {
     width: 60%;
-    padding-left: 30px;
+    margin-left: 30px;
     
 }
 
@@ -272,7 +277,7 @@ projects and a link to view them*/
 }
 
 
-/*final section*/
+/*final section of the portfolio page*/
 .portfolio-page .final-section {
     width: 100%;
     height: auto;
@@ -334,4 +339,32 @@ projects and a link to view them*/
 }
 .portfolio-page footer > div > p {
     font-size: 16px;
+}
+
+
+/*media query for responsive design*/
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .header {
+        width: 100vw;
+        height: auto;
+    }
+
+    .nav-bar {
+        margin-top: -50px;
+        flex-direction: column;
+        height: 80px auto;
+        margin-right: 50px;
+    }
+
+    .nav-bar a {
+        height: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
 }
