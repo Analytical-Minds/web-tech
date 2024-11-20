@@ -357,14 +357,40 @@ projects and a link to view them*/
     .nav-bar {
         margin-top: -50px;
         flex-direction: column;
-        height: 80px auto;
+        height: 60px auto;
         margin-right: 50px;
     }
 
     .nav-bar a {
-        height: 20px;
+        height: 12px;
         font-size: 16px;
         font-weight: 500;
     }
+
+    .nav-bar a:last-of-type {
+        margin-bottom: 10px;
+    }
     
+
+    .main-section {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #about {
+        width: 65%;
+        margin: 30px;
+        border: 1px solid red;
+    }
+
+    #about h1 {
+        font-size: 30px;
+    }
+
+    #about h2 {
+        font-size: 28px;
+    }
 }
