@@ -144,10 +144,12 @@ h4 {
 
 .team-container {
   display: flex;
+  width: 100%;
+  height: auto;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .team-member{
