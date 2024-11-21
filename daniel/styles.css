@@ -348,8 +348,8 @@ projects and a link to view them*/
 /*media query for responsive design*/
 @media only screen and (max-width: 768px) {
 
-    body {
-        font-size: 16px;
+    html {
+        font-size: 32.5%;
     }
 
     .header {
@@ -449,5 +449,26 @@ projects and a link to view them*/
 
 
     /*media query for portfolio page*/
+    .portfolio-page .projects {
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .portfolio-page .projects h2 {
+        grid-column: 1 / 2;
+        font-size: 36px;
+    }
+
+    .portfolio-page .projects > .project-tile > img {
+        width: 80vw;
+        height: 350px;
+    }
+
+    .portfolio-page .final-section > p {
+        top: -25px;
+    }
+
 
 }
