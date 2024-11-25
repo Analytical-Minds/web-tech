@@ -219,6 +219,21 @@ projects and a link to view them*/
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.portfolio-page .top > a {
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+    padding-top: 40px;
+    color: var(--background-color-2);
+}
+
+.portfolio-page .bottom {
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+    color: var(--background-color-2);
+}
+
 .portfolio-page > .projects {
     width: 100vw;
     height: auto;
