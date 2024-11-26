@@ -34,7 +34,7 @@ const newTeamMembers = [
 
 // add event listener to "load more button"
 document.getElementById("load-more-btn").addEventListener("click", function () {
-    const teamContanier = document.getElementById("team-container");
+    const teamContanier = document.getElementById("team-section");
 
     //add team members dynamically
     newTeamMembers.forEach((member) => {
